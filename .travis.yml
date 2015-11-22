@@ -6,6 +6,13 @@ env:
     - secure: "Bn4Ylq4Bde2lvKCwRZNzSlEgrzVYM/6NpA8gim5mlUpA2AWeMB5XZV9yT4cVnxZ9Yk3CDT9ZCnpmZFd8KJP0PK3DgcdXjWaNGRml+Uc3i5TpNWQmTCVIqOTq1g8VDzeIX4IiOFwPQiVdpaplNLdUVE7c4Ktl2FV9m7XUPlP0iso="
     # GH_TOKEN
     - secure: "Hxg4dE7Yfk6rykyLX+BK0qx0Vk7vO6W2w2dm6p62pnfvHLD/jWZX8Y5U6x0F/tal/Hvfv+pXWZeCX83y7Ergmf3CEJoz4YKmyXn7jfodEcArfbt/hW9WR63H7uPEbCpF9TwhXjd5jw/ZfOOD+CzTcNnD+VcBl+9ImXh+ZFf3ASM="
+    - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
 matrix:
   include:
     - node_js: "0.10"

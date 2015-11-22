@@ -13,8 +13,7 @@ function runTestsIn(jsdomModule) {
 			});
 }
 
-if (process.version.indexOf("v0.") >= 0) {
-	runTestsIn("jsdom-compat");
-} else {
+runTestsIn("jsdom-compat");
+if (process.version.indexOf("v0.") < 0) {
 	runTestsIn("jsdom");
 }
