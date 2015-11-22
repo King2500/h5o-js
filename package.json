@@ -44,7 +44,7 @@
     "grunt-open": "0.2.x",
     "grunt-saucelabs": "8.x",
     "in-publish": "1.x",
-    "jsdom": "4.x",
+    "jsdom": "7.x",
     "jsdom-compat": "1.x",
     "load-grunt-tasks": "3.x",
     "phantomjs": "1.9.x",
